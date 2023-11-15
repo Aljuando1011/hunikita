@@ -8,17 +8,13 @@ function App() {
       url: "/kontrakan1.png",
     },
     {
-      url: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80",
+      url: "/kontrakan2.png",
     },
     {
-      url: "https://images.unsplash.com/photo-1661961112951-f2bfd1f253ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2672&q=80",
-    },
-
-    {
-      url: "https://images.unsplash.com/photo-1512756290469-ec264b7fbf87?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2253&q=80",
+      url: "/kontrakan3.png",
     },
     {
-      url: "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2671&q=80",
+      url: "/kontrakan4.png",
     },
   ];
 
@@ -54,16 +50,16 @@ function App() {
       <div className="absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
         <BsChevronCompactRight onClick={nextSlide} size={30} />
       </div>
-      <div className="flex justify-center bottom-0 py-4 absolute w-full">
+      <div className="flex justify-center bottom-0 py-4 absolute w-full gap-3">
         {slides.map((slide, slideIndex) => (
           <div
             key={slideIndex}
             onClick={() => goToSlide(slideIndex)}
-            className={`text-2xl cursor-pointer rounded-full bg-white ${
-              slideIndex == currentIndex ? "bg-white" : "bg-gray-300"
+            className={`text-2xl cursor-pointer rounded-full ${
+              slideIndex == currentIndex ? "bg-white" : "bg-gray-500"
             }`}
           >
-            <RxDotFilled />
+            {/* <RxDotFilled /> */}
           </div>
         ))}
       </div>
