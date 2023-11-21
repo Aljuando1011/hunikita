@@ -9,16 +9,22 @@ const Footer = () => {
           alt=""
           className="cursor-pointer"
         />
-        <p className="w-[294px] text-white cursor-default mt-[5px]">
+        <p className="w-[294px] text-white cursor-default mt-[5px] mr-[136px]">
           huniKita merupakan sebuah situs yang dibuat untuk menyediakan
           kebutuhan akomodasi anda, berupa kos-kosan dan kontrakan.
         </p>
-        <div className="flex gap-6">
+        <div className="flex gap-[86px]">
           <div>
-            <h1 className="text-[24px] text-white cursor-default">Navigasi</h1>
+            <h1 className="text-[24px] text-white cursor-default font-bold">Navigasi</h1>
             <ul>
               <li className="text-[16px] text-white hover:text-gray-200 hover:underline hover:cursor-pointer">
                 Beranda
+              </li>
+              <li className="text-[16px] text-white hover:text-gray-200 hover:underline hover:cursor-pointer">
+                Mau Cari Apa?
+              </li>
+              <li className="text-[16px] text-white hover:text-gray-200 hover:underline hover:cursor-pointer">
+                Artikel
               </li>
               <li className="text-[16px] text-white hover:text-gray-200 hover:underline hover:cursor-pointer">
                 Tentang Kami
@@ -26,7 +32,7 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <h1 className="text-[24px] text-white cursor-default">
+            <h1 className="text-[24px] text-white cursor-default font-bold">
               Bantuan & Dukungan
             </h1>
             <ul>
@@ -39,7 +45,7 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <h1 className="text-[24px] text-white cursor-default">
+            <h1 className="text-[24px] text-white cursor-default font-bold">
               Hubungi Kami
             </h1>
             <ul>
