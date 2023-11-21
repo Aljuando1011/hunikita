@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import { RxDotFilled } from "react-icons/rx";
 
-function App() {
+function Carousel() {
   const slides = [
     {
       url: "/kontrakan1.png",
@@ -59,7 +59,7 @@ function App() {
               slideIndex == currentIndex ? "bg-white" : "bg-gray-500"
             }`}
           >
-            {/* <RxDotFilled /> */}
+            {/* <RxDotFilled className="text-gray-500" /> */}
           </div>
         ))}
       </div>
@@ -67,4 +67,4 @@ function App() {
   );
 }
 
-export default App;
+export default Carousel;
