@@ -56,7 +56,7 @@ const Change = () => {
               </div>
 
               <button
-                className="w-full block bg-blue-500 hover:bg-blue-400 px-1.5 py-1.5 mt-2 rounded-lg font-semibold text-white font-Poppins focus:bg-blue-400 focus:outline-none mt-9"
+                className="w-full block bg-blue-500 hover:bg-blue-400 px-1.5 py-1.5 rounded-lg font-semibold text-white font-Poppins focus:bg-blue-400 focus:outline-none mt-9"
                 type="submit"
               >
                 Konfirmasi
