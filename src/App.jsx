@@ -1,10 +1,12 @@
 import Login from "./Pages/autentikasi/Login";
 import Register from "./Pages/autentikasi/Register"
+import DropdownHover from "./components/penyewa/Dropdown";
+import NavPenyewa from "./components/penyewa/NavPenyewa";
 
 function App() {
   return (
     <>
-    <Login />
+    <NavPenyewa />
     </>
   );
 }
