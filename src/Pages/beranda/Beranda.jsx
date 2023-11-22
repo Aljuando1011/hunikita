@@ -1,9 +1,9 @@
 import React from "react";
-import Navbar from "../components/Navbar";
-import Carousel from "../components/beranda/Carousel";
-import SearchBar from "../components/beranda/SearchBar";
-import CardBeranda from "../components/beranda/CardBeranda";
-import Footer from "../components/Footer";
+import Navbar from "../../components/Navbar";
+import Carousel from "../../components/beranda/Carousel";
+import SearchBar from "../../components/beranda/SearchBar";
+import CardBeranda from "../../components/beranda/CardBeranda";
+import Footer from "../../components/Footer";
 
 const Beranda = () => {
   return (

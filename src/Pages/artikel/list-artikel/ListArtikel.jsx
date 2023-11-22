@@ -1,9 +1,9 @@
 import React from "react";
-import Navbar from "../../components/Navbar";
-import ListCard from "../../components/artikel/ListCard";
-import Pagination from "../../components/artikel/Pagination";
-import Footer from "../../components/Footer";
-import SearchArtikel from "../../components/artikel/SearchArtikel";
+import Navbar from "../../../components/Navbar";
+import ListCard from "../../../components/artikel/ListCard";
+import Pagination from "../../../components/artikel/Pagination";
+import Footer from "../../../components/Footer";
+import SearchArtikel from "../../../components/artikel/SearchArtikel";
 
 const ListArtikel = () => {
   return (
