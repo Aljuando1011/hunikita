@@ -6,7 +6,6 @@ import NavPenyewa from "./components/penyewa/NavPenyewa";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Beranda from "./Pages/beranda/Beranda"
 import TentangKami from "./Pages/tentang-kami/TentangKami"
-import AddProduct from "./Pages/iklan/Addproduct";
 
 function App() {
   return (
@@ -15,7 +14,6 @@ function App() {
       <Routes>
         <Route path="/" element={<Beranda />} />
         <Route path="/tentangkami" element={<TentangKami />} />
-        <Route path="/addproduct" element={<AddProduct />} />
       </Routes>
     </Router>
     </>
