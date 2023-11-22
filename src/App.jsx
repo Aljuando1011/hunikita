@@ -9,7 +9,7 @@ import Beranda from "./Pages/beranda/Beranda"
 import TentangKami from "./Pages/tentang-kami/TentangKami"
 import PageKontrakan from "./Pages/kontrakan/detail-kontrakan/PageKontrakan";
 import AddProduct from "./Pages/iklan/Addproduct";
-
+import PusatBantuan from "./Pages/Pusat-bantuan/PusatBantuan";
 
 
 // function App() {
@@ -27,7 +27,7 @@ function App() {
     <>
     <Router>
       <Routes>
-        <Route path="/" element={<Beranda />} />
+        <Route path="/" element={<Beranda/>} />
         <Route path="/tentangkami" element={<TentangKami />} />
         <Route path="/pagekontrakan" element={<PageKontrakan />} />
         <Route path="/addproduct" element={<AddProduct />} />
