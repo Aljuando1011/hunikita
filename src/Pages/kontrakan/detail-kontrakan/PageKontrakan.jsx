@@ -1,7 +1,7 @@
-import Navbar from "../../components/Navbar";
-import Footer from "../../components/Footer";
-import CarouselDetailKontrakan from "../../components/kontrakan/CauroselDetailKontrakan";
-import SearchBar from "../../components/beranda/SearchBar";
+import Navbar from "../../../components/Navbar";
+import Footer from "../../../components/Footer";
+import CarouselDetailKontrakan from "../../../components/kontrakan/CauroselDetailKontrakan";
+import SearchBar from "../../../components/beranda/SearchBar";
 import React from "react";
 
 const PageKontrakan = () => {
