@@ -1,12 +1,13 @@
 import Login from "./Pages/autentikasi/Login";
 import Register from "./Pages/autentikasi/Register"
+import Listkosan from "./Pages/kosan/Listkosan";
 import DropdownHover from "./components/penyewa/Dropdown";
 import NavPenyewa from "./components/penyewa/NavPenyewa";
 
 function App() {
   return (
     <>
-    <NavPenyewa />
+    <Listkosan />
     </>
   );
 }
