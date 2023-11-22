@@ -3,26 +3,23 @@ import Register from "./Pages/autentikasi/Register"
 import Listkosan from "./Pages/kosan/Listkosan";
 import DropdownHover from "./components/penyewa/Dropdown";
 import NavPenyewa from "./components/penyewa/NavPenyewa";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Beranda from "./Pages/beranda/Beranda"
+import TentangKami from "./Pages/tentang-kami/TentangKami"
+import AddProduct from "./Pages/iklan/Addproduct";
 
 function App() {
   return (
     <>
-    <Listkosan />
+    <Router>
+      <Routes>
+        <Route path="/" element={<Beranda />} />
+        <Route path="/tentangkami" element={<TentangKami />} />
+        <Route path="/addproduct" element={<AddProduct />} />
+      </Routes>
+    </Router>
     </>
   );
 }
 
 export default App;
-
-// function App() {
-//   return (
-//     <Router>
-//       <Routes>
-//         <Route path="/" element={<Login/>} />
-//         <Route path="/Register" element={<Register/>} />
-//         <Route path="/Change" element={<Change/>} />
-//       </Routes>
-//     </Router>
-//   );
-// }
-// export default App;

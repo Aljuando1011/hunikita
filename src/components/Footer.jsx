@@ -25,10 +25,8 @@ const Footer = () => {
               </li>
               <li className="text-[16px] text-white hover:text-gray-200 hover:underline hover:cursor-pointer">
                 Artikel
-              </li>
-              <li className="text-[16px] text-white hover:text-gray-200 hover:underline hover:cursor-pointer">
-                Tentang Kami
-              </li>
+              </li><li className="text-[16px] text-white hover:text-gray-200 hover:underline hover:cursor-pointer">
+                Tentang Kami</li>
             </ul>
           </div>
           <div>

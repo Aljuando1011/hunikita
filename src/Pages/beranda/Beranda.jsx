@@ -15,10 +15,11 @@ const Beranda = () => {
         </div>
         <div>
         <Carousel />
-        </div>
-        <div className="mt-[25px]">
+        <div className=" -mt-[30px]">
           <SearchBar />
         </div>
+        </div>
+        
         <div className="flex flex-col w-full mt-[60px]">
           <h1 className="text-[32px] font-semibold uppercase ml-[30px]">
             Rekomendasi Kos

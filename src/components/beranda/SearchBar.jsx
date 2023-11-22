@@ -2,7 +2,7 @@ import React from 'react'
 
 const SearchBar = () => {
   return (
-    <div className='w-[686px] h-[51px] flex items-center relative rounded-[10px] shadow-xl mx-auto'>
+    <div className='w-[686px] h-[51px] flex items-center relative rounded-[10px] shadow-xl mx-auto bg-white'>
         <img src="/logo-map.png" alt="" className='ml-[9px]' />
         <form action="">
             <input type="text" placeholder='Ketikan kata kunci...' className='border-none w-[527px] pl-[14px] ml-[7px]' />
