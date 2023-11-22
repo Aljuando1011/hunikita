@@ -4,6 +4,7 @@ import Carousel from "../../components/beranda/Carousel";
 import SearchBar from "../../components/beranda/SearchBar";
 import CardBeranda from "../../components/beranda/CardBeranda";
 import Footer from "../../components/Footer";
+import Selengkapnya from "../../components/beranda/Selengkapnya";
 
 const Beranda = () => {
   return (
@@ -28,8 +29,11 @@ const Beranda = () => {
             <CardBeranda />
             <CardBeranda />
           </div>
+          <div className="mt-[38px]">
+            <Selengkapnya />
+          </div>
         </div>
-        <div className="flex flex-col w-full mt-[60px]">
+        <div className="flex flex-col w-full mt-[40px]">
           <h1 className="text-[32px] font-semibold uppercase ml-[30px]">
             Rekomendasi Kontrakan
           </h1>
@@ -39,8 +43,11 @@ const Beranda = () => {
             <CardBeranda />
             <CardBeranda />
           </div>
+          <div className="mt-[38px]">
+            <Selengkapnya />
+          </div>
         </div>
-        <div className="flex flex-col w-full mt-[60px]">
+        <div className="flex flex-col w-full mt-[40px]">
           <h1 className="text-[32px] font-semibold uppercase ml-[30px]">
             Rekomendasi Artikel
           </h1>
@@ -49,6 +56,9 @@ const Beranda = () => {
             <CardBeranda />
             <CardBeranda />
             <CardBeranda />
+          </div>
+          <div className="mt-[38px]">
+            <Selengkapnya />
           </div>
         </div>
         <div className="mt-[98px]">
