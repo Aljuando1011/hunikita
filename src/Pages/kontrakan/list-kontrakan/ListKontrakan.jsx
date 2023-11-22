@@ -1,9 +1,9 @@
 import React from "react";
-import SearchListKontrakan from "../../../components/list-kontrakan/SearchListKontrakan";
-import Pagination from "../../../components/artikel/Pagination";
-import Navbar from "../../../components/Navbar";
-import Footer from "../../../components/Footer";
-import CardListKontrakan from "../../../components/list-kontrakan/CardListKontrakan";
+import SearchListKontrakan from "../../components/kontrakan/SearchListKontrakan";
+import Pagination from "../../components/artikel/Pagination";
+import Navbar from "../../components/Navbar";
+import Footer from "../../components/Footer";
+import CardListKontrakan from "../../components/kontrakan/CardListKontrakan";
 
 const ListKontrakan = () => {
   return (
