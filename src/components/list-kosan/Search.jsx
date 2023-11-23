@@ -2,10 +2,10 @@ import React from "react";
 
 const Search = () => {
   return (
-    <div class="min-h-screen bg-gray-100 flex justify-center ">
-	<div class="container rounded-lg mt-5 shadow-l w-[677px] h-[320px]">
+    <div class=" bg-gray-10 flex justify-center ">
+	<div class="container rounded-lg mt-2 shadow-l w-[677px] ">
     <form>
-        <label for="default-search" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
+        <label for="default-search" class="mb-1 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
         <div class="relative">
         <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
         <img src="/logo-map.png" alt="" /> 
@@ -14,7 +14,7 @@ const Search = () => {
         <input type="search" id="default-search" class="block w-full p-4 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="| Ketik nama kos atau lokasi" required></input>
         <button type="submit" class="text-white absolute end-14 bottom-2.5 bg-[#4E97D1] hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-80">Cari kos</button>
         
-        <div className="absolute end-2.5 bottom-4 cursor-pointer">
+        <div className="absolute end-4 bottom-4 cursor-pointer">
         <img src="/Sortir.png" alt="" /> 
             
             </div>

@@ -1,25 +1,21 @@
 import Login from "./Pages/autentikasi/Login";
 import Register from "./Pages/autentikasi/Register"
 import Listkosan from "./Pages/kosan/Listkosan";
+import Detailkosan from "./Pages/kosan/Detailkosan";
 import DropdownHover from "./components/penyewa/Dropdown";
 import NavPenyewa from "./components/penyewa/NavPenyewa";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Beranda from "./Pages/beranda/Beranda"
 import TentangKami from "./Pages/tentang-kami/TentangKami"
 import PageKontrakan from "./Pages/kontrakan/detail-kontrakan/PageKontrakan";
-import BerandaPenyewa from "./Pages/penyewa/BerandaPenyewa";
-import TentangKamiPenyewa from "./Pages/penyewa/TentangKamiPenyewa";
-import ListKontrakanPenyewa from "./Pages/penyewa/ListKontrakanPenyewa";
-import DetailKontrakanPenyewa from "./Pages/penyewa/DetailKontrakanPenyewa";
-import ListArtikelPenyewa from "./Pages/penyewa/ListArtikelPenyewa";
-import { DetailArtikelPenyewa } from "./Pages/penyewa/DetailArtikelPenyewa";
+import AddProduct from "./Pages/iklan/Addproduct";
 
 function App() {
   return (
     <>
     <Router>
       <Routes>
-        <Route path="/" element={<Beranda />} />
+        <Route path="/" element={<Beranda/>} />
         <Route path="/tentangkami" element={<TentangKami />} />
         <Route path="/berandapenyewa" element={<BerandaPenyewa />} />
         <Route path="/tentangkamipenyewa" element={<TentangKamiPenyewa />} />
