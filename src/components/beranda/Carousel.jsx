@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
+import { BiSolidChevronLeft, BiSolidChevronRight } from "react-icons/bi";
 import { RxDotFilled } from "react-icons/rx";
 
 function Carousel() {
@@ -44,11 +44,11 @@ function Carousel() {
       ></div>
       {/* Left Arrow */}
       <div className="absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
-        <BsChevronCompactLeft onClick={prevSlide} size={30} />
+        <BiSolidChevronLeft onClick={prevSlide} size={30} />
       </div>
       {/* Right Arrow */}
       <div className="absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
-        <BsChevronCompactRight onClick={nextSlide} size={30} />
+        <BiSolidChevronRight onClick={nextSlide} size={30} />
       </div>
       <div className="flex justify-center bottom-0 py-4 absolute w-full gap-3">
         {slides.map((slide, slideIndex) => (

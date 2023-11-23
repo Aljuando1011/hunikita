@@ -10,7 +10,7 @@ const Navbar = () => {
         className="cursor-pointer"
       />
       <div className="relative">
-        <ul className="flex text-white font-normal text-[20px] gap-4">
+        <ul className="flex text-white font-normal text-[20px] gap-7">
           <li className="hover:text-gray-200 hover:cursor-pointer hover:underline">
             <Link to="/">Beranda</Link>
           </li>
@@ -22,7 +22,7 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-      <button className="hover:text-gray-200 hover:cursor-pointer hover:underline relative mr-5 p-1 pt-0 rounded-[5px] border-solid border-[3px] justify-center items-center text-white text-[20px] font-normal">
+      <button className=" hover:cursor-pointer hover:underline relative mr-5 p-1 pt-0 rounded-[50px] text-[#4E97D1] bg-white justify-center items-center text-[20px] font-normal w-[100px]">
         Masuk
       </button>
     </div>

@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react'
 
-const Footer = () => {
+const FooterPenyewa = () => {
   return (
     <div className="w-full bg-[#4E97D1] flex flex-col justify-between relative">
       <div className="flex justify-between relative mt-[33px]">
@@ -22,6 +22,15 @@ const Footer = () => {
               </li>
               <li className="text-[16px] text-white hover:text-gray-200 hover:underline hover:cursor-pointer">
                 Tentang Kami
+              </li>
+              <li className="text-[16px] text-white hover:text-gray-200 hover:underline hover:cursor-pointer">
+                Artikel
+              </li>
+              <li className="text-[16px] text-white hover:text-gray-200 hover:underline hover:cursor-pointer">
+                Kosan
+              </li>
+              <li className="text-[16px] text-white hover:text-gray-200 hover:underline hover:cursor-pointer">
+                Kontrakan
               </li>
             </ul>
           </div>
@@ -68,7 +77,7 @@ const Footer = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Footer;
+export default FooterPenyewa

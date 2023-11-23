@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const DropdownHover = () => {
   const [isDropdownVisible, setDropdownVisible] = useState(false);
@@ -35,22 +36,12 @@ const DropdownHover = () => {
             className="py-2 text-sm text-gray-700 dark:text-gray-200"
             aria-labelledby="dropdownHoverButton"
           >
-            <li>
-              <a
-                href="#"
-                className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-              >
+            <Link to='/listkosanpenyewa'><li className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
                 Kosan
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-              >
+            </li></Link>
+            <Link to='/listkontrakanpenyewa'><li className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
                 Kontrakan
-              </a>
-            </li>
+            </li></Link>
           </ul>
         </div>
       )}

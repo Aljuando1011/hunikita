@@ -1,17 +1,17 @@
-import React from "react";
-import Navbar from "../../components/Navbar";
-import Carousel from "../../components/beranda/Carousel";
-import SearchBar from "../../components/beranda/SearchBar";
-import CardBeranda from "../../components/beranda/CardBeranda";
-import Footer from "../../components/Footer";
-import Selengkapnya from "../../components/beranda/Selengkapnya";
-import NavPenyewa from "../../components/penyewa/NavPenyewa";
+import React from 'react'
+import NavPenyewa from '../../components/penyewa/NavPenyewa'
+import Carousel from '../../components/beranda/Carousel'
+import CardBeranda from '../../components/beranda/CardBeranda'
+import Selengkapnya from '../../components/beranda/Selengkapnya'
+import SearchBar from '../../components/beranda/SearchBar'
+import FooterPenyewa from '../../components/penyewa/FooterPenyewa'
 
-const Beranda = () => {
+
+const BerandaPenyewa = () => {
   return (
     <>
-      <Navbar />
-      <div>
+    <NavPenyewa />
+    <div>
         <Carousel />
         <div className=" -mt-[30px]">
           <SearchBar />
@@ -60,11 +60,11 @@ const Beranda = () => {
           <Selengkapnya />
         </div>
       </div>
-      <div className="mt-[98px]">
-        <Footer />
+      <div className='mt-[98px]'>
+        <FooterPenyewa />
       </div>
     </>
-  );
-};
+  )
+}
 
-export default Beranda;
+export default BerandaPenyewa
