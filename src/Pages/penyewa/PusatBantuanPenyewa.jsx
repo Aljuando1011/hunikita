@@ -1,12 +1,12 @@
-import React from 'react'
-import NavPenyewa from '../../components/penyewa/NavPenyewa'
-import FooterPenyewa from '../../components/penyewa/FooterPenyewa'
+import React from "react";
+import NavPenyewa from "../../components/penyewa/NavPenyewa";
+import FooterPenyewa from "../../components/penyewa/FooterPenyewa";
 
 const PusatBantuanPenyewa = () => {
   return (
     <>
-    <NavPenyewa />
-    <p className="absolute w-[655px] top-[150px] left-[35px] [font-family:'Poppins-Regular',Helvetica] font-extrabold text-[#000000cc] text-[40px] text-justify tracking-[0] leading-[normal]">
+      <NavPenyewa />
+      <p className="absolute w-[655px] top-[150px] left-[35px] [font-family:'Poppins-Regular',Helvetica] font-bold text-[#000000cc] text-[30px] text-justify tracking-[0] leading-[normal]">
         Ajukan Pertanyaan!
       </p>
       <div className="w-[650px] mt-[120px]  ml-[35px]">
@@ -26,7 +26,7 @@ const PusatBantuanPenyewa = () => {
           minLength="10"
           type="email"
           placeholder="  Masukkan Email Anda"
-          className="w-full bg-gray-200  h-[40px] border focus:border-blue-500 focus:bg-white focus:outline-none rounded-lg"
+          className="w-full bg-gray-200  h-[40px] border-none focus:border-blue-500 focus:bg-white focus:outline-none rounded-lg"
           autoComplete
           autofocus
         />
@@ -36,7 +36,7 @@ const PusatBantuanPenyewa = () => {
         Tentang
         <input
           minLength="10"
-          placeholder="     Masukkan Masalah Anda"
+          placeholder="     Masukkan Subjek "
           className="w-full bg-gray-200  h-[40px] border focus:border-blue-500 focus:bg-white focus:outline-none rounded-lg"
           autoComplete
           autofocus
@@ -48,12 +48,12 @@ const PusatBantuanPenyewa = () => {
         <input
           placeholder="     Masukkan Masalah Anda"
           minLength="10"
-          className="w-full bg-gray-200  h-[100px] border focus:border-blue-500 focus:bg-white focus:outline-none rounded-lg"
+          className="w-full bg-gray-200 h-[40px] mb-[40px] border-none focus:border-blue-500 focus:bg-white focus:outline-none rounded-lg"
           autoComplete
           autofocus
         />
       </div>
-      <p className="absolute w-[655px] top-[155px] left-[750px] [font-family:'Poppins-Regular',Helvetica] font-extrabold text-[#000000cc] text-[30px] text-justify tracking-[0] leading-[normal]">
+      <p className="absolute w-[655px] top-[155px] left-[750px] [font-family:'Poppins-Regular',Helvetica] font-bold text-[#000000cc] text-[30px] text-justify tracking-[0] leading-[normal]">
         Pertanyaan yang sering diajukan
       </p>
       <div className="relative ml-[750px] w-[460px] top-[-430px] ">
@@ -176,11 +176,11 @@ const PusatBantuanPenyewa = () => {
           </li>
         </ul>
       </div>
-      <div className='mt-[-200px]'>
+      <div className="mt-[-200px]">
         <FooterPenyewa />
       </div>
     </>
-  )
-}
+  );
+};
 
-export default PusatBantuanPenyewa
+export default PusatBantuanPenyewa;

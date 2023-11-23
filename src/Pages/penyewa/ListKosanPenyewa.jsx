@@ -4,6 +4,7 @@ import FooterPenyewa from '../../components/penyewa/FooterPenyewa'
 import Search from '../../components/list-kosan/Search'
 import Cardkosan from '../../components/list-kosan/Cardkosan'
 import Pagination from '../../components/artikel/Pagination'
+import { Link } from 'react-router-dom'
 
 const ListKosanPenyewa = () => {
   return (
@@ -14,7 +15,7 @@ const ListKosanPenyewa = () => {
         </div>
         <div className="flex flex-col w-full mt-[30px]">
           <div className="flex flex-wrap gap-7 justify-center mt-[12px]">
-            <Cardkosan />
+            <Link to='/detailkosanpenyewa'><Cardkosan /></Link>
             <Cardkosan />
             <Cardkosan />
           </div>
