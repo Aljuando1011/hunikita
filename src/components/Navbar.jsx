@@ -11,20 +11,28 @@ const Navbar = () => {
       />
       <div className="relative">
         <ul className="flex text-white font-normal text-[20px] gap-7">
-          <li className="hover:text-gray-200 hover:cursor-pointer hover:underline">
-            <Link to="/">Beranda</Link>
-          </li>
-          <li className="hover:text-gray-200 hover:cursor-pointer hover:underline">
-            <Link to="/tentangkami">Tentang Kami</Link>
-          </li>
-          <li className="hover:text-gray-200 hover:cursor-pointer hover:underline">
-            Pusat Bantuan
-          </li>
+          <Link to="/">
+            <li className="hover:text-gray-200 hover:cursor-pointer hover:underline">
+              Beranda
+            </li>
+          </Link>
+          <Link to="/tentangkami">
+            <li className="hover:text-gray-200 hover:cursor-pointer hover:underline">
+              Tentang Kami
+            </li>
+          </Link>
+          <Link to="/pusatbantuan">
+            <li className="hover:text-gray-200 hover:cursor-pointer hover:underline">
+              Pusat Bantuan
+            </li>
+          </Link>
         </ul>
       </div>
-      <button className=" hover:cursor-pointer hover:underline relative mr-5 p-1 pt-0 rounded-[50px] text-[#4E97D1] bg-white justify-center items-center text-[20px] font-normal w-[100px]">
-        Masuk
-      </button>
+      <Link to="/login">
+        <button className=" hover:cursor-pointer hover:underline relative mr-5 p-1 pt-0 rounded-[50px] text-[#4E97D1] bg-white justify-center items-center text-[20px] font-normal w-[100px]">
+          Masuk
+        </button>
+      </Link>
     </div>
   );
 };

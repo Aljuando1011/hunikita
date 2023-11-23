@@ -1,5 +1,6 @@
 import React from "react";
-import Dropdown from "../../components/autentikasi/Dropdown"
+import Dropdown from "../../components/autentikasi/Dropdown";
+import { Link } from "react-router-dom";
 
 const Register = () => {
   return (
@@ -63,11 +64,14 @@ const Register = () => {
                 <Dropdown />
               </div>
 
-              <button
-                className="w-full block bg-blue-500 hover:bg-blue-400 px-1.5 py-1.5 mt-5 rounded-lg font-semibold text-white font-Poppins focus:bg-blue-400 focus:outline-none"
-                type="submit"
-              >Daftar
-              </button>
+              <Link to="/berandapenyewa">
+                <button
+                  className="w-full block bg-blue-500 hover:bg-blue-400 px-1.5 py-1.5 mt-5 rounded-lg font-semibold text-white font-Poppins focus:bg-blue-400 focus:outline-none"
+                  type="submit"
+                >
+                  Daftar
+                </button>
+              </Link>
 
               <hr className="my-6 border-gray-300 w-full" />
 
@@ -85,18 +89,18 @@ const Register = () => {
               <div className="mt-6">
                 <div className="flex items-center justify-center gap-1">
                   Dengan login kamu menyetujui
-                  <a href="#" className="text-blue-500 hover:text-blue-700">
+                  <a className="text-blue-500 hover:text-blue-700">
                     {" "}
                     Syarat & Ketentuan{" "}
                   </a>
-                  <a href="#"> dan</a>
+                  <a> dan</a>
                 </div>
                 <div className="flex items-center justify-center gap-1">
-                  <a href="#" className="text-blue-500 hover:text-blue-700">
+                  <a className="text-blue-500 hover:text-blue-700">
                     {" "}
                     Kebijakan Privasi
                   </a>
-                  <a href="#"> huniKita</a>
+                  <a> huniKita</a>
                 </div>
               </div>
             </form>

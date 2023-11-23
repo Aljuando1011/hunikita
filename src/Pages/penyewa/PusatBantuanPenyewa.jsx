@@ -1,12 +1,12 @@
-import React from "react";
-import Navbar from "../../components/Navbar";
-import Footer from "../../components/Footer";
+import React from 'react'
+import NavPenyewa from '../../components/penyewa/NavPenyewa'
+import FooterPenyewa from '../../components/penyewa/FooterPenyewa'
 
-const PusatBantuan = () => {
+const PusatBantuanPenyewa = () => {
   return (
     <>
-      <Navbar />
-      <p className="absolute w-[655px] top-[150px] left-[35px] [font-family:'Poppins-Regular',Helvetica] font-extrabold text-[#000000cc] text-[40px] text-justify tracking-[0] leading-[normal]">
+    <NavPenyewa />
+    <p className="absolute w-[655px] top-[150px] left-[35px] [font-family:'Poppins-Regular',Helvetica] font-extrabold text-[#000000cc] text-[40px] text-justify tracking-[0] leading-[normal]">
         Ajukan Pertanyaan!
       </p>
       <div className="w-[650px] mt-[120px]  ml-[35px]">
@@ -176,12 +176,11 @@ const PusatBantuan = () => {
           </li>
         </ul>
       </div>
-
-      <div className="mt-[-200px]">
-        <Footer />
+      <div className='mt-[-200px]'>
+        <FooterPenyewa />
       </div>
     </>
-  );
-};
+  )
+}
 
-export default PusatBantuan;
+export default PusatBantuanPenyewa

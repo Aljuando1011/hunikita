@@ -68,24 +68,26 @@ const Login = () => {
               </button>
               <div className="flex gap-2 justify-center mt-[10px]">
                 <p>Belum punya akun?</p>
-                <p className="text-blue-500">Buat akun</p>
+                <Link to="/register">
+                  <p className="text-blue-500">Buat akun</p>
+                </Link>
               </div>
 
               <div className="mt-6">
                 <div className=" items-center justify-center flex gap-1">
                   Dengan login kamu menyetujui
-                  <a href="#" className="text-blue-500 hover:text-blue-700">
+                  <a className="text-blue-500 hover:text-blue-700">
                     {" "}
                     Syarat & Ketentuan{" "}
                   </a>
-                  <a href="#"> dan</a>
+                  <a> dan</a>
                 </div>
                 <div className=" items-center justify-center flex gap-1">
-                  <a href="#" className="text-blue-500 hover:text-blue-700">
+                  <a className="text-blue-500 hover:text-blue-700">
                     {" "}
                     Kebijakan Privasi
                   </a>
-                  <a href="#"> huniKita</a>
+                  <a> huniKita</a>
                 </div>
               </div>
             </form>

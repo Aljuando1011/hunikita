@@ -5,7 +5,6 @@ import SearchBar from "../../components/beranda/SearchBar";
 import CardBeranda from "../../components/beranda/CardBeranda";
 import Footer from "../../components/Footer";
 import Selengkapnya from "../../components/beranda/Selengkapnya";
-import NavPenyewa from "../../components/penyewa/NavPenyewa";
 
 const Beranda = () => {
   return (
