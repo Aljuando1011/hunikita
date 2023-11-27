@@ -12,6 +12,7 @@ const PusatBantuan = () => {
       <div className="w-[650px] mt-[120px]  ml-[35px]">
         Nama Lengkap
         <input
+          type="text"
           minLength="10"
           placeholder="     Masukkan Nama lengkap Anda"
           className="w-full bg-gray-200  h-[40px] border focus:border-blue-500 focus:bg-white focus:outline-none rounded-lg"
@@ -35,6 +36,7 @@ const PusatBantuan = () => {
       <div className="w-[650px] mt-[20px]  ml-[35px]">
         Tentang
         <input
+          type="text"
           minLength="10"
           placeholder="     Masukkan Masalah Anda"
           className="w-full bg-gray-200  h-[40px] border focus:border-blue-500 focus:bg-white focus:outline-none rounded-lg"
@@ -46,6 +48,7 @@ const PusatBantuan = () => {
       <div className="w-[650px] mt-[20px]  ml-[35px]">
         Pesan
         <input
+          type="text"
           placeholder="     Masukkan Masalah Anda"
           minLength="10"
           className="w-full bg-gray-200  h-[40px] mb-[40px] border focus:border-blue-500 focus:bg-white focus:outline-none rounded-lg"
