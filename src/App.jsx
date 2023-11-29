@@ -13,6 +13,9 @@ import ListKontrakanPenyewa from "./Pages/penyewa/ListKontrakanPenyewa";
 import DetailKontrakanPenyewa from "./Pages/penyewa/DetailKontrakanPenyewa";
 import ListArtikelPenyewa from "./Pages/penyewa/ListArtikelPenyewa";
 import { DetailArtikelPenyewa } from "./Pages/penyewa/DetailArtikelPenyewa";
+import ListProperti from "./Pages/pemilik/ListProperti";
+import FormDaftar from "./Pages/pemilik/FormDaftar";
+import FormEdit from "./Pages/pemilik/FormEdit";
 
 function App() {
   return (
@@ -33,6 +36,9 @@ function App() {
         <Route path="/detailkontrakanpenyewa" element={<DetailKontrakanPenyewa />} />
         <Route path="/listartikelpenyewa" element={<ListArtikelPenyewa />} />
         <Route path="/detailartikelpenyewa" element={<DetailArtikelPenyewa />} />
+        <Route path="/listproperti" element={<ListProperti />} />
+        <Route path="/formdaftar" element={<FormDaftar />} />
+        <Route path="/formedit" element={<FormEdit />} />
       </Routes>
     </Router>
     </>
