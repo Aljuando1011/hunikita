@@ -4,6 +4,8 @@ import TentangKami from './Pages/tentang-kami/TentangKami'
 import PusatBantuan from "./Pages/Pusat-bantuan/PusatBantuan";
 import Login from './Pages/autentikasi/Login'
 import Register from './Pages/autentikasi/Register'
+import SyaratKetentuan from "./Pages/autentikasi/SyaratKetentuan";
+import KebijakanPrivasi from "./Pages/autentikasi/KebijakanPrivasi";
 import BerandaPenyewa from './Pages/penyewa/BerandaPenyewa'
 import TentangKamiPenyewa from "./Pages/penyewa/TentangKamiPenyewa";
 import PusatBantuanPenyewa from "./Pages/penyewa/PusatBantuanPenyewa";
@@ -27,6 +29,8 @@ function App() {
         <Route path="/pusatbantuan" element={<PusatBantuan />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/Syaratketentuan" element={<SyaratKetentuan />} />
+        <Route path="/KebijakanPrivasi" element={<KebijakanPrivasi />} />
         <Route path="/berandapenyewa" element={<BerandaPenyewa />} />
         <Route path="/tentangkamipenyewa" element={<TentangKamiPenyewa />} />
         <Route path="/pusatbantuanpenyewa" element={<PusatBantuanPenyewa />} />
