@@ -29,8 +29,8 @@ function App() {
         <Route path="/pusatbantuan" element={<PusatBantuan />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
-        <Route path="/Syaratketentuan" element={<SyaratKetentuan />} />
-        <Route path="/KebijakanPrivasi" element={<KebijakanPrivasi />} />
+        <Route path="/syaratketentuan" element={<SyaratKetentuan />} />
+        <Route path="/kebijakanprivasi" element={<KebijakanPrivasi />} />
         <Route path="/berandapenyewa" element={<BerandaPenyewa />} />
         <Route path="/tentangkamipenyewa" element={<TentangKamiPenyewa />} />
         <Route path="/pusatbantuanpenyewa" element={<PusatBantuanPenyewa />} />
