@@ -56,9 +56,9 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="w-full h-0 border-solid border-[3px] bg-white my-5"></div>
+      <div className="w-full h-0 border-solid border-[2px] bg-white my-5"></div>
       <div className="flex justify-between relative px-5 mb-5">
-        <p className="text-white text-[20px]">
+        <p className="text-white text-[16px]">
           Copyright ©2023 All rights reserved | Web11Pro by Group 11
         </p>
         <div className="flex gap-3 cursor-pointer">
