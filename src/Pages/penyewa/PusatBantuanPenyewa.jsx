@@ -12,8 +12,9 @@ const PusatBantuanPenyewa = () => {
       <div className="w-[650px] mt-[120px]  ml-[35px]">
         Nama Lengkap
         <input
+          type="text"
           minLength="10"
-          placeholder="     Masukkan Nama lengkap Anda"
+          placeholder="  Masukkan Nama lengkap Anda"
           className="w-full bg-gray-200  h-[40px] border focus:border-blue-500 focus:bg-white focus:outline-none rounded-lg"
           autoComplete
           autofocus
@@ -26,7 +27,7 @@ const PusatBantuanPenyewa = () => {
           minLength="10"
           type="email"
           placeholder="  Masukkan Email Anda"
-          className="w-full bg-gray-200  h-[40px] border-none focus:border-blue-500 focus:bg-white focus:outline-none rounded-lg"
+          className="w-full bg-gray-200  h-[40px]  focus:border-blue-500 focus:bg-white focus:outline-none rounded-lg"
           autoComplete
           autofocus
         />
@@ -35,9 +36,10 @@ const PusatBantuanPenyewa = () => {
       <div className="w-[650px] mt-[20px]  ml-[35px]">
         Tentang
         <input
+          type="text"
           minLength="10"
-          placeholder="     Masukkan Subjek "
-          className="w-full bg-gray-200  h-[40px] border focus:border-blue-500 focus:bg-white focus:outline-none rounded-lg"
+          placeholder="  Masukkan Masalah Anda"
+          className="w-full bg-gray-200  h-[40px]  focus:border-blue-900 focus:bg-white focus:outline-none rounded-lg"
           autoComplete
           autofocus
         />
@@ -46,17 +48,22 @@ const PusatBantuanPenyewa = () => {
       <div className="w-[650px] mt-[20px]  ml-[35px]">
         Pesan
         <input
-          placeholder="     Masukkan Masalah Anda"
+          type="text"
+          placeholder="  Masukkan Masalah Anda"
           minLength="10"
-          className="w-full bg-gray-200 h-[40px] mb-[40px] border-none focus:border-blue-500 focus:bg-white focus:outline-none rounded-lg"
+          className="w-full bg-gray-200  h-[40px] mb-[40px] border focus:border-blue-500 focus:bg-white focus:outline-none rounded-lg"
           autoComplete
           autofocus
         />
       </div>
-      <p className="absolute w-[655px] top-[155px] left-[750px] [font-family:'Poppins-Regular',Helvetica] font-bold text-[#000000cc] text-[30px] text-justify tracking-[0] leading-[normal]">
+      <div className='w-full'>
+        <button className='mt-[-25px] w-[120px] ml-[285px] h-[30px] rounded-[10px]  justify-center items-center p-0 flex bg-[#4E97D1] text-[15px] text-white '>Kirim</button>
+    </div>
+
+    <p className="relative top-[-435px] ml-[750px]  [font-family:'Poppins-Regular',Helvetica] font-bold text-[#000000cc] text-[30px] text-justify tracking-[0] leading-[normal]">
         Pertanyaan yang sering diajukan
       </p>
-      <div className="relative ml-[750px] w-[460px] top-[-430px] ">
+      <div className="absolute ml-[750px] w-[590px] top-[150px] ">
         <ul class="max-w-2xl mx-auto mt-20 divide-y  shadow shadow-blue-600 rounded-xl">
           <li>
             <details class="group">
@@ -176,7 +183,7 @@ const PusatBantuanPenyewa = () => {
           </li>
         </ul>
       </div>
-      <div className="mt-[-200px]">
+      <div className="">
         <FooterPenyewa />
       </div>
     </>

@@ -18,6 +18,11 @@ import { DetailArtikelPenyewa } from "./Pages/penyewa/DetailArtikelPenyewa";
 import ListProperti from "./Pages/pemilik/ListProperti";
 import FormDaftar from "./Pages/pemilik/FormDaftar";
 import FormEdit from "./Pages/pemilik/FormEdit";
+import BerandaPemilik from './Pages/pemilik/BerandaPemilik'
+import TentangKamiPemilik from './Pages/pemilik/TentangKamiPemilik'
+import PusatBantuanPemilik from './Pages/pemilik/PusatBantuanPemilik'
+import ListArtikelPemilik from './Pages/pemilik/ListArtikelPemilik'
+import DetailArtikelPemilik from './Pages/pemilik/DetailArtikelPemilik'
 
 function App() {
   return (
@@ -43,6 +48,11 @@ function App() {
         <Route path="/listproperti" element={<ListProperti />} />
         <Route path="/formdaftar" element={<FormDaftar />} />
         <Route path="/formedit" element={<FormEdit />} />
+        <Route path="/berandapemilik" element={<BerandaPemilik />} />
+        <Route path="/tentangkamipemilik" element={<TentangKamiPemilik />} />
+        <Route path="/pusatbantuanpemilik" element={<PusatBantuanPemilik />} />
+        <Route path="/listartikelpemilik" element={<ListArtikelPemilik />} />
+        <Route path="/detailartikelpemilik" element={<DetailArtikelPemilik />} />
       </Routes>
     </Router>
     </>
