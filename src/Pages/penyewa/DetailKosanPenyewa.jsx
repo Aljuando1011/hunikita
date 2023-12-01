@@ -245,22 +245,22 @@ const DetailKosanPenyewa = () => {
                   Peta :<br />
                 </span>
               </p>
-              <div className="absolute w-[1250px] h-[428px] top-[780px] ">
-                <div className="relative w-[1252px] h-[428px]">
-                  <img
-                    className="w-[1250px] h-[391px] left-0 absolute top-0 object-cover"
-                    alt="Image"
-                    src="image-13.png"
-                  />
-                  <div className="absolute w-[1252px] h-[46px] top-[382px] left-0">
-                    <div className="relative w-[1250px] h-[46px] bg-[#4e97d1] hover:bg-slate-300">
-                      <button className="absolute w-[112px] h-[41px] top-[2px] left-[580px] [font-family:'Poppins-Medium',Helvetica] font-medium text-white hover:text-[#4e97d1] text-[20px] tracking-[0] leading-[normal]">
-                        Lihat Maps
-                      </button>
-                    </div>
+              <div className="absolute w-[1150px] h-[428px] top-[780px] ">
+              <div className="relative w-[1152px] h-[428px]">
+              <iframe
+                  className="w-[1150px] h-[391px]"
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d31678.934956540885!2d112.743696!3d-7.024931!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd80fc77370e441%3A0x4d75fa19da1088fd!2sKost%20barokah!5e0!3m2!1sid!2sid!4v1701411838163!5m2!1sid!2sid"
+                  allowfullscreen=""
+                ></iframe>{" "}
+                <div className="absolute w-[1152px] h-[46px] top-[382px] left-0">
+                  <div className="relative w-[1150px] h-[46px] bg-[#4e97d1] hover:bg-slate-300 hover:cursor-pointer">
+                    <button className="absolute w-[112px] h-[41px] top-[2px] left-[580px] [font-family:'Poppins-Medium',Helvetica] font-medium text-white hover:text-[#4e97d1] text-[20px] tracking-[0] leading-[normal]">
+                      Lihat Maps
+                    </button>
                   </div>
                 </div>
               </div>
+            </div>
             </div>
           </div>
         </div>

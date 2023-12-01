@@ -1,21 +1,21 @@
-import React from 'react'
-import NavPenyewa from '../../components/penyewa/NavPenyewa'
-import FooterPenyewa from '../../components/penyewa/FooterPenyewa'
-import SearchBar from '../../components/beranda/SearchBar'
-import CarouselDetailKontrakan from '../../components/kontrakan/CauroselDetailKontrakan'
+import React from "react";
+import NavPenyewa from "../../components/penyewa/NavPenyewa";
+import FooterPenyewa from "../../components/penyewa/FooterPenyewa";
+import SearchBar from "../../components/beranda/SearchBar";
+import CarouselDetailKontrakan from "../../components/kontrakan/CauroselDetailKontrakan";
 
 const DetailKontrakanPenyewa = () => {
   return (
     <>
-    <NavPenyewa />
-    <div className="mt-12 mb-12">
+      <NavPenyewa />
+      <div className="mt-12 mb-12">
         <SearchBar />
       </div>
       <div className="mt-12 mb-12">
         <CarouselDetailKontrakan />
       </div>
       <div className="bg-white flex flex-row justify-center w-full">
-        <div className="bg-white w-[1440px] h-[1563px] relative">
+        <div className="bg-white w-[1440px] h-[1463px] relative">
           <div className="absolute w-[710px] h-[187px] top-[31px] left-[83px]">
             <div className="absolute w-[710px] h-[187px] top-0 left-0">
               <div className="relative w-[712px] h-[187px]">
@@ -67,7 +67,7 @@ const DetailKontrakanPenyewa = () => {
             </div>
             <p className="absolute w-[210px] top-[47px] left-[41px] [font-family:'Poppins-Regular',Helvetica] font-normal text-white text-[24px] text-justify tracking-[0] leading-[normal] whitespace-nowrap">
               <span className="[font-family:'Poppins-Regular',Helvetica] font-normal text-white text-[24px] tracking-[0]">
-                Rp. 100.000 /{" "}
+                Rp. 1.000.000 /{" "}
               </span>
               <span className="text-[16px]">Bulan</span>
             </p>
@@ -179,15 +179,15 @@ const DetailKontrakanPenyewa = () => {
                 Peta :<br />
               </span>
             </p>
-            <div className="absolute w-[1250px] h-[428px] top-[414px] left-[12px]">
-              <div className="relative w-[1252px] h-[428px]">
-                <img
-                  className="w-[1250px] h-[391px] left-0 absolute top-0 object-cover"
-                  alt="Image"
-                  src="image-13.png"
-                />
-                <div className="absolute w-[1252px] h-[46px] top-[382px] left-0">
-                  <div className="relative w-[1250px] h-[46px] bg-[#4e97d1] hover:bg-slate-300">
+            <div className="absolute w-[1150px] h-[428px] top-[412px] ">
+              <div className="relative w-[1152px] h-[428px]">
+              <iframe
+                  className="w-[1150px] h-[391px]"
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d31678.934956540885!2d112.743696!3d-7.024931!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd80fc77370e441%3A0x4d75fa19da1088fd!2sKost%20barokah!5e0!3m2!1sid!2sid!4v1701411838163!5m2!1sid!2sid"
+                  allowfullscreen=""
+                ></iframe>{" "}
+                <div className="absolute w-[1152px] h-[46px] top-[382px] left-0">
+                  <div className="relative w-[1150px] h-[46px] bg-[#4e97d1] hover:bg-slate-300 hover:cursor-pointer">
                     <button className="absolute w-[112px] h-[41px] top-[2px] left-[580px] [font-family:'Poppins-Medium',Helvetica] font-medium text-white hover:text-[#4e97d1] text-[20px] tracking-[0] leading-[normal]">
                       Lihat Maps
                     </button>
@@ -200,7 +200,7 @@ const DetailKontrakanPenyewa = () => {
       </div>
       <FooterPenyewa />
     </>
-  )
-}
+  );
+};
 
-export default DetailKontrakanPenyewa
+export default DetailKontrakanPenyewa;
