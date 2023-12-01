@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const CardProperti = () => {
   return (
@@ -15,12 +16,12 @@ const CardProperti = () => {
                 </div>
                 <p className='text-[20px]'>Jl. Telang Indah III 3, Perumahan Telang Indah, Telang, Kec. Kamal, Kabupaten Bangkalan, Jawa Timur 69162</p>
             </div>
-            <div className='flex bg-[#4E97D1] w-[81px] h-[35px] rounded-[8px] items-center justify-center text-white gap-2 cursor-pointer mt-[20px]'>
+            <Link to='/formedit'><div className='flex bg-[#4E97D1] w-[81px] h-[35px] rounded-[8px] items-center justify-center text-white gap-2 cursor-pointer mt-[20px]'>
                 <span>Edit</span>
                 <div>
                     <img src="/logo-edit.png" alt="" />
                 </div>
-            </div>
+            </div></Link>
         </div>
     </div>
     </div>

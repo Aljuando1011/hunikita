@@ -47,12 +47,12 @@ const Login = () => {
                 Lupa Kata Sandi?
               </div>
 
-              <button
+              <Link to='/berandapemilik'><button
                 className="w-full block bg-blue-500 hover:bg-blue-400 px-1.5 py-1.5 rounded-lg font-semibold text-white font-Poppins focus:bg-blue-400 focus:outline-none mt-3"
                 type="submit"
               >
                 Masuk
-              </button>
+              </button></Link>
 
               <hr className="my-6 border-gray-300 w-full" />
 
