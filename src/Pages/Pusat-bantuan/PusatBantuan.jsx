@@ -86,10 +86,7 @@ const PusatBantuan = () => {
 
               <article class="px-4 pb-4">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  et ipsum sapien. Vestibulum molestie porttitor augue vitae
-                  vulputate. Aliquam nec ex maximus, suscipit diam vel,
-                  tristique tellus.
+                Pilih platform atau situs web penyedia layanan kos online yang terpercaya dan memiliki reputasi baik. Pastikan untuk menggunakan situs-situs resmi atau aplikasi yang sudah dikenal dan banyak digunakan.
                 </p>
               </article>
             </details>
@@ -115,10 +112,8 @@ const PusatBantuan = () => {
 
               <article class="px-4 pb-4">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  et ipsum sapien. Vestibulum molestie porttitor augue vitae
-                  vulputate. Aliquam nec ex maximus, suscipit diam vel,
-                  tristique tellus.{" "}
+                huniKita merupakan sebuah situs yang dibuat untuk menyediakan
+          kebutuhan akomodasi anda, berupa kos-kosan dan kontrakan.{" "}
                 </p>
               </article>
             </details>
@@ -144,10 +139,7 @@ const PusatBantuan = () => {
 
               <article class="px-4 pb-4">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  et ipsum sapien. Vestibulum molestie porttitor augue vitae
-                  vulputate. Aliquam nec ex maximus, suscipit diam vel,
-                  tristique tellus.{" "}
+                Untuk mendaftar iklan di website Hunikita, langkah-langkahnya sangat sederhana. Pertama, kunjungi situs resmi Hunikita dan cari opsi atau menu yang berkaitan dengan pemasangan iklan. Biasanya, terdapat formulir pendaftaran khusus yang perlu Anda isi dengan informasi yang relevan. Pastikan untuk menyertakan detail yang akurat tentang properti yang akan diiklankan, termasuk lokasi, fasilitas, dan informasi harga. Selanjutnya, ikuti petunjuk pendaftaran yang diberikan, seperti mengunggah gambar dan deskripsi properti.{" "}
                 </p>
               </article>
             </details>
@@ -173,17 +165,13 @@ const PusatBantuan = () => {
 
               <article class="px-4 pb-4">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  et ipsum sapien. Vestibulum molestie porttitor augue vitae
-                  vulputate. Aliquam nec ex maximus, suscipit diam vel,
-                  tristique tellus.{" "}
+                Setelah mencapai kesepakatan, Anda akan diminta untuk menandatangani kontrak sewa dan melakukan pembayaran sesuai dengan ketentuan yang disepakati. Hunikita menyediakan platform yang memudahkan penyewa untuk menemukan dan menyewa kos dengan aman dan efisien. Pastikan untuk selalu mematuhi prosedur dan syarat yang ditetapkan oleh Hunikita untuk pengalaman penyewaan yang lancar.{" "}
                 </p>
               </article>
             </details>
           </li>
         </ul>
       </div>
-
       <div className="relative mt-[10px]">
         <Footer />
       </div>
