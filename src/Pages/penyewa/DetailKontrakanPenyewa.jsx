@@ -132,7 +132,7 @@ const DetailKontrakanPenyewa = () => {
                 </div>
                 <div className="flex w-[334px] h-[149px]">
                   <div className="flex-col w-[692px] ml-[-64px] [font-family:'Poppins-Medium',Helvetica] font-medium text-black text-[24px] text-justify tracking-[0] leading-[normal]">
-                    <div className="flex [font-family:'Poppins-Medium',Helvetica] font-medium text-black text-[24px] tracking-[0]">
+                    <div className="flex mb-2 [font-family:'Poppins-Medium',Helvetica] font-medium text-black text-[24px] tracking-[0]">
                       Tipe Kontrakan
                       <br />
                     </div>
@@ -188,14 +188,14 @@ const DetailKontrakanPenyewa = () => {
                   <div className="text-[20px]">
                     Petunjuk arah :<br />
                   </div>
-                  <div className="text-[16px]">
+                  <div className="mt-2 text-[16px]">
                     200 meter dari pertigaan lampu arah Alun-Alun Bangkalan, ada
                     gapura masuk Perumahan Telang Asri belok kiri, kontakan
                     menghadap selatan dekat dengan laundry barokah.
                     <br />
                     <br />
                   </div>
-                  <div className="text-[20px]">
+                  <div className="flex mt-6 text-[20px]">
                     Peta :<br />
                   </div>
                   <div className="flex w-[1150px] h-[428px] mt-8">
@@ -220,7 +220,6 @@ const DetailKontrakanPenyewa = () => {
           </div>
         </div>
       </div>
-
       <FooterPenyewa />
     </>
   );
