@@ -5,9 +5,9 @@ const Cardkosan = () => {
     <>
       <div className="relative w-[376px] h-[313px]">
         <div className="relative w-[376px] h-[188px] top-0 left-0">
-          <div className="relative w-[90px] h-[14px] top-[170px] left-[6px] bg-[#d9d9d9]" />
+          <div className="relative w-[90px] h-[14px] top-[170px] left-[6px] bg-[#d9d9d9] rounded-[20px]" />
           <img
-            className="absolute w-[376px] h-[188px] top-0 left-0 object-cover"
+            className="absolute w-[376px] h-[188px] top-0 left-0 object-cover rounded-[20px]"
             alt="Image"
             src="/kontrakan1.png"
           />
