@@ -14,7 +14,7 @@ const DetailKosanPenyewa = () => {
         <div className="mt-12 mb-12">
           <Carouselkosan />
         </div>
-        <div className="bg-white flex flex-row justify-center w-full">
+        <div className="bg-white flex flex-row justify-center w-full mx-auto">
           <div className="bg-white w-[1440px] h-[1563px] relative">
             <div className="absolute w-[710px] h-[187px] top-[31px] left-[83px]">
               <div className="absolute w-[710px] h-[187px] top-0 left-0">

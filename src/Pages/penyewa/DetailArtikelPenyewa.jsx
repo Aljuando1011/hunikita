@@ -4,13 +4,18 @@ import FooterPenyewa from '../../components/penyewa/FooterPenyewa'
 import PopulerCard from '../../components/artikel/PopulerCard'
 
 export const DetailArtikelPenyewa = () => {
+    const backgroundImageUrl = '/wisata-madura-3.png';
+    const style = {
+      backgroundImage: `url(${backgroundImageUrl})`,
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+      backgroundRepeat: 'no-repeat',
+    };
   return (
     <>
     <NavPenyewa />
     <div className='relative'>
-        <div>
-            <img src="/banner-artikel.png" alt="" className='' />
-        </div>
+        <div className='w-[1440px] h-[483px]' style={style}></div>
         <div className='w-[1022px] h-[2000px] bg-[#EEEADF] flex flex-col absolute -mt-[150px]'>
             <h1 className='text-[50px] text-["Poppins"] font-bold ml-[81px] mt-[61px]'>3 Wisata buat anak kos!</h1>
             <p className='text-[20px] text-["Poppins"] font-bold mt-[10px] ml-[81px]'>Admin: Hendra</p>
