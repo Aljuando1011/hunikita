@@ -2,7 +2,7 @@ import React from 'react'
 
 const CardBeranda = () => {
   return (
-    <div className='flex flex-col w-[300px]'>
+    <div className='flex flex-col w-[300px] hover:shadow-2xl'>
         <div className='mx-auto'>
         <img src="/card-beranda.png" alt="" />
         </div>

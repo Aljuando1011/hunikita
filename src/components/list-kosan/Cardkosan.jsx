@@ -3,7 +3,7 @@ import React from "react";
 const Cardkosan = () => {
   return (
     <>
-      <div className="relative w-[376px] h-[313px]">
+      <div className="relative w-[376px] h-[313px] hover:shadow-2xl">
         <div className="relative w-[376px] h-[188px] top-0 left-0">
           <div className="relative w-[90px] h-[14px] top-[170px] left-[6px] bg-[#d9d9d9] rounded-[20px]" />
           <img

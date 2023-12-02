@@ -2,7 +2,7 @@ import React from 'react'
 
 const ListCard = () => {
   return (
-    <div className='w-[954px] h-[219px] flex shadow-xl relative rounded-[20px] mx-auto'>
+    <div className='w-[954px] h-[219px] flex shadow-xl relative rounded-[20px] mx-auto hover:shadow-2xl'>
         <div className='mt-[19px] ml-[26px] mb-[19px]'>
             <img src="/image-artikel-list.png" alt="" />
         </div>
