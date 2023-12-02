@@ -2,27 +2,26 @@ import React from "react";
 
 const Search = () => {
   return (
-    <div class=" bg-gray-10 flex justify-center ">
-	<div class="container rounded-lg mt-2 shadow-l w-[677px] ">
-    <form>
-        <label for="default-search" class="mb-1 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
-        <div class="relative">
-        <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
-        <img src="/logo-map.png" alt="" /> 
+    <div className="w-[686px] h-[51px] flex items-center relative rounded-[10px] shadow-xl mx-auto">
+        <img src="/logo-map.png" alt="" className="ml-[9px]" />
+        <form action="">
+          <input
+            type="text"
+            placeholder="Ketik nama kontrakan atau lokasi"
+            className="border-none w-[470px] pl-[14px] ml-[7px]"
+          />
+        </form>
+        <button className="w-[93px] h-[31px] bg-[#4E97D1] flex justify-center absolute right-[70px] items-center text-white text-[18px] rounded-[8px]">
+          Cari Kos
+        </button>
+        <div className="absolute w-[22px] h-[24px] left-[634px] hover:cursor-pointer">
+        <img
+          className="object-cover"
+          alt="Download removebg"
+          src="https://c.animaapp.com/U4UCsOMi/img/download-removebg-preview-1@2x.png"
+        />
         </div>
-
-        <input type="search" id="default-search" class="block w-full p-4 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="| Ketik nama kos atau lokasi" required></input>
-        <button type="submit" class="text-white absolute end-14 bottom-2.5 bg-[#4E97D1] hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-80">Cari kos</button>
-        
-        <div className="absolute end-4 bottom-4 cursor-pointer">
-        <img src="/Sortir.png" alt="" /> 
-            
-            </div>
-
-        </div>
-    </form>
-    </div>
-</div>
+      </div>
   );
 };
 

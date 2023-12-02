@@ -9,7 +9,7 @@ const SearchListKontrakan = () => {
           <input
             type="text"
             placeholder="Ketik nama kontrakan atau lokasi"
-            className="border-none w-[527px] pl-[14px] ml-[7px]"
+            className="border-none w-[470px] pl-[14px] ml-[7px]"
           />
         </form>
         <button className="w-[93px] h-[31px] bg-[#4E97D1] flex justify-center absolute right-[70px] items-center text-white text-[18px] rounded-[8px]">
