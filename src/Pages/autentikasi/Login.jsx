@@ -43,9 +43,9 @@ const Login = () => {
                 />
               </div>
 
-              <div class="text-right mt-2 font-Poppins font-semibold text-gray-700 hover:text-blue-700 focus:text-blue-700 focus:outline-none">
+              <Link to='/lupakatasandi'><div class="text-right mt-2 font-Poppins font-semibold text-gray-700 hover:text-blue-700 focus:text-blue-700 focus:outline-none">
                 Lupa Kata Sandi?
-              </div>
+              </div></Link>
 
               <Link to='/berandapemilik'><button
                 className="w-full block bg-blue-500 hover:bg-blue-400 px-1.5 py-1.5 rounded-lg font-semibold text-white font-Poppins focus:bg-blue-400 focus:outline-none mt-3"

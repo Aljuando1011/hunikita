@@ -23,6 +23,7 @@ import TentangKamiPemilik from './Pages/pemilik/TentangKamiPemilik'
 import PusatBantuanPemilik from './Pages/pemilik/PusatBantuanPemilik'
 import ListArtikelPemilik from './Pages/pemilik/ListArtikelPemilik'
 import DetailArtikelPemilik from './Pages/pemilik/DetailArtikelPemilik'
+import Change from './Pages/autentikasi/Change'
 
 function App() {
   return (
@@ -53,6 +54,7 @@ function App() {
         <Route path="/pusatbantuanpemilik" element={<PusatBantuanPemilik />} />
         <Route path="/listartikelpemilik" element={<ListArtikelPemilik />} />
         <Route path="/detailartikelpemilik" element={<DetailArtikelPemilik />} />
+        <Route path="/lupakatasandi" element={<Change />} />
       </Routes>
     </Router>
     </>
