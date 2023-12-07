@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="w-full flex justify-between bg-[#4E97D1] items-center relative">
+    <div className="w-full flex justify-between bg-[#4E97D1] items-center relative" style={{fontFamily: 'poppins'}}>
       <img
         src="/logo-hunikita.png"
         alt="logo-hunikita"
@@ -29,7 +29,7 @@ const Navbar = () => {
         </ul>
       </div>
       <Link to="/login">
-        <button className=" hover:cursor-pointer hover:underline relative mr-5 p-1 pt-0 rounded-[50px] text-[#4E97D1] bg-white justify-center items-center text-[20px] font-normal w-[100px]">
+        <button className=" hover:cursor-pointer hover:underline relative mr-5 rounded-[50px] text-[#4E97D1] flex bg-white justify-center items-center text-[20px] font-normal w-[100px]">
           Masuk
         </button>
       </Link>
