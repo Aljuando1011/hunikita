@@ -3,7 +3,10 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="w-full flex justify-between bg-[#4E97D1] items-center relative" style={{fontFamily: 'poppins'}}>
+    <div
+      className="w-full flex justify-between bg-[#4E97D1] items-center relative"
+      style={{ fontFamily: "Poppins" }}
+    >
       <img
         src="/logo-hunikita.png"
         alt="logo-hunikita"

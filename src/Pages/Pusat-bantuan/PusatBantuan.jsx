@@ -6,7 +6,7 @@ const PusatBantuan = () => {
   return (
     <>
       <Navbar />
-      <p className="absolute w-[655px] top-[150px] left-[35px] [font-family:'Poppins-Regular',Helvetica] font-bold text-[#000000cc] text-[30px] text-justify tracking-[0] leading-[normal]">
+      <p className="absolute w-[655px] top-[150px] left-[35px] [font-family:'Poppins-Regular',Helvetica] font-extrabold text-[#000000cc] text-[40px] text-justify tracking-[0] leading-[normal]">
         Ajukan Pertanyaan!
       </p>
       <div className="w-[650px] mt-[120px]  ml-[35px]">
@@ -20,48 +20,51 @@ const PusatBantuan = () => {
           autofocus
         />
       </div>
+
       <div className="w-[650px] mt-[20px]  ml-[35px]">
         Email
         <input
+          type="text"
           minLength="10"
-          type="email"
           placeholder="  Masukkan Email Anda"
-          className="w-full bg-gray-200  h-[40px]  focus:border-blue-500 focus:bg-white focus:outline-none rounded-lg"
+          className="w-full bg-gray-200  h-[40px] border focus:border-blue-500 focus:bg-white focus:outline-none rounded-lg"
           autoComplete
           autofocus
         />
       </div>
+
       <div className="w-[650px] mt-[20px]  ml-[35px]">
         Tentang
         <input
           type="text"
           minLength="10"
-          placeholder="  Masukkan Masalah Anda"
-          className="w-full bg-gray-200  h-[40px]  focus:border-blue-900 focus:bg-white focus:outline-none rounded-lg"
+          placeholder="  Masukkan Subjek Anda"
+          className="w-full bg-gray-200  h-[40px] border focus:border-blue-500 focus:bg-white focus:outline-none rounded-lg"
           autoComplete
           autofocus
         />
       </div>
+
       <div className="w-[650px] mt-[20px]  ml-[35px]">
         Pesan
         <input
           type="text"
-          placeholder="  Masukkan Masalah Anda"
+          placeholder="  Masukkan Pesan Anda"
           minLength="10"
-          className="w-full bg-gray-200  h-[40px] mb-[40px] border focus:border-blue-500 focus:bg-white focus:outline-none rounded-lg"
+          className="w-full bg-gray-200 items-start flex align-top border focus:border-blue-500 focus:bg-white focus:outline-none rounded-lg"
           autoComplete
           autofocus
         />
       </div>
-      <div className="w-full">
+      <div className="w-full mt-12">
         <button className="mt-[-25px] w-[120px] ml-[285px] h-[30px] rounded-[10px]  justify-center items-center p-0 flex bg-[#4E97D1] text-[15px] text-white ">
           Kirim
         </button>
       </div>
-      <p className="relative top-[-435px] ml-[750px]  [font-family:'Poppins-Regular',Helvetica] font-bold text-[#000000cc] text-[30px] text-justify tracking-[0] leading-[normal]">
+      <p className="absolute w-[655px] top-[155px] left-[750px] [font-family:'Poppins-Regular',Helvetica] font-extrabold text-[#000000cc] text-[30px] text-justify tracking-[0] leading-[normal]">
         Pertanyaan yang sering diajukan
       </p>
-      <div className="absolute ml-[750px] w-[590px] top-[150px] ">
+      <div className="relative ml-[750px] w-[460px] top-[-430px] ">
         <ul class="max-w-2xl mx-auto mt-20 divide-y  shadow shadow-blue-600 rounded-xl">
           <li>
             <details class="group">
@@ -81,6 +84,7 @@ const PusatBantuan = () => {
                 </svg>
                 <span>Cara terhidar dari penipuan?</span>
               </summary>
+
               <article class="px-4 pb-4">
                 <p>
                   Pilih platform atau situs web penyedia layanan kos online yang
@@ -109,6 +113,7 @@ const PusatBantuan = () => {
                 </svg>
                 <span>Apa Itu huni kita?</span>
               </summary>
+
               <article class="px-4 pb-4">
                 <p>
                   huniKita merupakan sebuah situs yang dibuat untuk menyediakan
@@ -135,6 +140,7 @@ const PusatBantuan = () => {
                 </svg>
                 <span>Bagaimana cara memebuat iklan di huni kita?</span>
               </summary>
+
               <article class="px-4 pb-4">
                 <p>
                   Untuk mendaftar iklan di website Hunikita, langkah-langkahnya
@@ -168,6 +174,7 @@ const PusatBantuan = () => {
                 </svg>
                 <span>Bagaimana cara menyewa di huni kita?</span>
               </summary>
+
               <article class="px-4 pb-4">
                 <p>
                   Setelah mencapai kesepakatan, Anda akan diminta untuk
@@ -183,7 +190,8 @@ const PusatBantuan = () => {
           </li>
         </ul>
       </div>
-      <div className="relative mt-[10px]">
+
+      <div className="mt-[-250px]">
         <Footer />
       </div>
     </>

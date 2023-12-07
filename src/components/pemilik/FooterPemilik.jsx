@@ -2,7 +2,7 @@ import React from 'react'
 
 const FooterPemilik = () => {
   return (
-    <div className="w-full bg-[#4E97D1] flex flex-col justify-between relative mt-[110px]">
+    <div className="w-full bg-[#4E97D1] flex flex-col justify-between relative">
       <div className="flex justify-between relative mt-[33px]">
         <div>
           <img src="/logo-hunikita.png" alt="" className="cursor-pointer" />

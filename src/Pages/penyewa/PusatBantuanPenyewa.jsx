@@ -6,7 +6,7 @@ const PusatBantuanPenyewa = () => {
   return (
     <>
       <NavPenyewa />
-      <p className="absolute w-[655px] top-[150px] left-[35px] [font-family:'Poppins-Regular',Helvetica] font-bold text-[#000000cc] text-[30px] text-justify tracking-[0] leading-[normal]">
+      <p className="absolute w-[655px] top-[150px] left-[35px] [font-family:'Poppins-Regular',Helvetica] font-extrabold text-[#000000cc] text-[40px] text-justify tracking-[0] leading-[normal]">
         Ajukan Pertanyaan!
       </p>
       <div className="w-[650px] mt-[120px]  ml-[35px]">
@@ -24,10 +24,10 @@ const PusatBantuanPenyewa = () => {
       <div className="w-[650px] mt-[20px]  ml-[35px]">
         Email
         <input
+          type="text"
           minLength="10"
-          type="email"
           placeholder="  Masukkan Email Anda"
-          className="w-full bg-gray-200  h-[40px]  focus:border-blue-500 focus:bg-white focus:outline-none rounded-lg"
+          className="w-full bg-gray-200  h-[40px] border focus:border-blue-500 focus:bg-white focus:outline-none rounded-lg"
           autoComplete
           autofocus
         />
@@ -38,8 +38,8 @@ const PusatBantuanPenyewa = () => {
         <input
           type="text"
           minLength="10"
-          placeholder="  Masukkan Masalah Anda"
-          className="w-full bg-gray-200  h-[40px]  focus:border-blue-900 focus:bg-white focus:outline-none rounded-lg"
+          placeholder="  Masukkan Subjek Anda"
+          className="w-full bg-gray-200  h-[40px] border focus:border-blue-500 focus:bg-white focus:outline-none rounded-lg"
           autoComplete
           autofocus
         />
@@ -49,21 +49,22 @@ const PusatBantuanPenyewa = () => {
         Pesan
         <input
           type="text"
-          placeholder="  Masukkan Masalah Anda"
+          placeholder="  Masukkan Pesan Anda"
           minLength="10"
-          className="w-full bg-gray-200  h-[40px] mb-[40px] border focus:border-blue-500 focus:bg-white focus:outline-none rounded-lg"
+          className="w-full bg-gray-200 items-start flex align-top border focus:border-blue-500 focus:bg-white focus:outline-none rounded-lg"
           autoComplete
           autofocus
         />
       </div>
-      <div className='w-full'>
-        <button className='mt-[-25px] w-[120px] ml-[285px] h-[30px] rounded-[10px]  justify-center items-center p-0 flex bg-[#4E97D1] text-[15px] text-white '>Kirim</button>
-    </div>
-
-    <p className="relative top-[-435px] ml-[750px]  [font-family:'Poppins-Regular',Helvetica] font-bold text-[#000000cc] text-[30px] text-justify tracking-[0] leading-[normal]">
+      <div className="w-full mt-12">
+        <button className="mt-[-25px] w-[120px] ml-[285px] h-[30px] rounded-[10px]  justify-center items-center p-0 flex bg-[#4E97D1] text-[15px] text-white ">
+          Kirim
+        </button>
+      </div>
+      <p className="absolute w-[655px] top-[155px] left-[750px] [font-family:'Poppins-Regular',Helvetica] font-extrabold text-[#000000cc] text-[30px] text-justify tracking-[0] leading-[normal]">
         Pertanyaan yang sering diajukan
       </p>
-      <div className="absolute ml-[750px] w-[590px] top-[150px] ">
+      <div className="relative ml-[750px] w-[460px] top-[-430px] ">
         <ul class="max-w-2xl mx-auto mt-20 divide-y  shadow shadow-blue-600 rounded-xl">
           <li>
             <details class="group">
@@ -86,7 +87,10 @@ const PusatBantuanPenyewa = () => {
 
               <article class="px-4 pb-4">
                 <p>
-                Pilih platform atau situs web penyedia layanan kos online yang terpercaya dan memiliki reputasi baik. Pastikan untuk menggunakan situs-situs resmi atau aplikasi yang sudah dikenal dan banyak digunakan.
+                  Pilih platform atau situs web penyedia layanan kos online yang
+                  terpercaya dan memiliki reputasi baik. Pastikan untuk
+                  menggunakan situs-situs resmi atau aplikasi yang sudah dikenal
+                  dan banyak digunakan.
                 </p>
               </article>
             </details>
@@ -112,8 +116,8 @@ const PusatBantuanPenyewa = () => {
 
               <article class="px-4 pb-4">
                 <p>
-                huniKita merupakan sebuah situs yang dibuat untuk menyediakan
-          kebutuhan akomodasi anda, berupa kos-kosan dan kontrakan.{" "}
+                  huniKita merupakan sebuah situs yang dibuat untuk menyediakan
+                  kebutuhan akomodasi anda, berupa kos-kosan dan kontrakan.{" "}
                 </p>
               </article>
             </details>
@@ -139,7 +143,15 @@ const PusatBantuanPenyewa = () => {
 
               <article class="px-4 pb-4">
                 <p>
-                Untuk mendaftar iklan di website Hunikita, langkah-langkahnya sangat sederhana. Pertama, kunjungi situs resmi Hunikita dan cari opsi atau menu yang berkaitan dengan pemasangan iklan. Biasanya, terdapat formulir pendaftaran khusus yang perlu Anda isi dengan informasi yang relevan. Pastikan untuk menyertakan detail yang akurat tentang properti yang akan diiklankan, termasuk lokasi, fasilitas, dan informasi harga. Selanjutnya, ikuti petunjuk pendaftaran yang diberikan, seperti mengunggah gambar dan deskripsi properti.{" "}
+                  Untuk mendaftar iklan di website Hunikita, langkah-langkahnya
+                  sangat sederhana. Pertama, kunjungi situs resmi Hunikita dan
+                  cari opsi atau menu yang berkaitan dengan pemasangan iklan.
+                  Biasanya, terdapat formulir pendaftaran khusus yang perlu Anda
+                  isi dengan informasi yang relevan. Pastikan untuk menyertakan
+                  detail yang akurat tentang properti yang akan diiklankan,
+                  termasuk lokasi, fasilitas, dan informasi harga. Selanjutnya,
+                  ikuti petunjuk pendaftaran yang diberikan, seperti mengunggah
+                  gambar dan deskripsi properti.{" "}
                 </p>
               </article>
             </details>
@@ -165,14 +177,21 @@ const PusatBantuanPenyewa = () => {
 
               <article class="px-4 pb-4">
                 <p>
-                Setelah mencapai kesepakatan, Anda akan diminta untuk menandatangani kontrak sewa dan melakukan pembayaran sesuai dengan ketentuan yang disepakati. Hunikita menyediakan platform yang memudahkan penyewa untuk menemukan dan menyewa kos dengan aman dan efisien. Pastikan untuk selalu mematuhi prosedur dan syarat yang ditetapkan oleh Hunikita untuk pengalaman penyewaan yang lancar.{" "}
+                  Setelah mencapai kesepakatan, Anda akan diminta untuk
+                  menandatangani kontrak sewa dan melakukan pembayaran sesuai
+                  dengan ketentuan yang disepakati. Hunikita menyediakan
+                  platform yang memudahkan penyewa untuk menemukan dan menyewa
+                  kos dengan aman dan efisien. Pastikan untuk selalu mematuhi
+                  prosedur dan syarat yang ditetapkan oleh Hunikita untuk
+                  pengalaman penyewaan yang lancar.{" "}
                 </p>
               </article>
             </details>
           </li>
         </ul>
       </div>
-      <div className="">
+
+      <div className="mt-[-250px]">
         <FooterPenyewa />
       </div>
     </>
