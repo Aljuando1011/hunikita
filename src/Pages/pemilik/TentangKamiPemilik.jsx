@@ -1,12 +1,12 @@
-import React from 'react'
-import NavPemilik from '../../components/pemilik/NavPemilik'
-import FooterPemilik from '../../components/pemilik/FooterPemilik'
+import React from "react";
+import NavPemilik from "../../components/pemilik/NavPemilik";
+import FooterPemilik from "../../components/pemilik/FooterPemilik";
 
 const TentangKamiPemilik = () => {
   return (
     <>
-    <NavPemilik />
-    <div className="bg-white flex flex-row justify-center w-full">
+      <NavPemilik />
+      <div className="bg-white flex flex-row justify-center w-full">
         <div className="bg-white w-[1440px] h-[801px] relative mt-8">
           <div className="flex flex-row justify-evenly mx-[-350px]">
             <div className="flex flex-col w-[328px] ml-12 justify-center [font-family:'Poppins-SemiBold',Helvetica] font-semibold text-black text-[35px] tracking-[0] leading-[normal]">
@@ -90,7 +90,7 @@ const TentangKamiPemilik = () => {
       </div>
       <FooterPemilik />
     </>
-  )
-}
+  );
+};
 
-export default TentangKamiPemilik
+export default TentangKamiPemilik;

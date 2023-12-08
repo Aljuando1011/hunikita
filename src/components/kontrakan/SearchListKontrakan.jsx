@@ -16,11 +16,11 @@ const SearchListKontrakan = () => {
           Cari Kos
         </button>
         <div className="absolute w-[22px] h-[24px] left-[634px] hover:cursor-pointer">
-        <img
-          className="object-cover"
-          alt="Download removebg"
-          src="https://c.animaapp.com/U4UCsOMi/img/download-removebg-preview-1@2x.png"
-        />
+          <img
+            className="object-cover"
+            alt="Download removebg"
+            src="https://c.animaapp.com/U4UCsOMi/img/download-removebg-preview-1@2x.png"
+          />
         </div>
       </div>
     </>

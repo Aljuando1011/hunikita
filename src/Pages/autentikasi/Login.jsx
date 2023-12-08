@@ -43,16 +43,20 @@ const Login = () => {
                 />
               </div>
 
-              <Link to='/lupakatasandi'><div class="text-right mt-2 font-Poppins font-semibold text-gray-700 hover:text-blue-700 focus:text-blue-700 focus:outline-none">
-                Lupa Kata Sandi?
-              </div></Link>
+              <Link to="/lupakatasandi">
+                <div class="text-right mt-2 font-Poppins font-semibold text-gray-700 hover:text-blue-700 focus:text-blue-700 focus:outline-none">
+                  Lupa Kata Sandi?
+                </div>
+              </Link>
 
-              <Link to='/berandapemilik'><button
-                className="w-full block bg-blue-500 hover:bg-blue-400 px-1.5 py-1.5 rounded-lg font-semibold text-white font-Poppins focus:bg-blue-400 focus:outline-none mt-3"
-                type="submit"
-              >
-                Masuk
-              </button></Link>
+              <Link to="/berandapemilik">
+                <button
+                  className="w-full block bg-blue-500 hover:bg-blue-400 px-1.5 py-1.5 rounded-lg font-semibold text-white font-Poppins focus:bg-blue-400 focus:outline-none mt-3"
+                  type="submit"
+                >
+                  Masuk
+                </button>
+              </Link>
 
               <hr className="my-6 border-gray-300 w-full" />
 
@@ -76,17 +80,21 @@ const Login = () => {
               <div className="mt-6">
                 <div className=" items-center justify-center flex gap-1">
                   Dengan login kamu menyetujui
-                  <Link to='/syaratketentuan'><a className="text-blue-500 hover:text-blue-700">
-                    {" "}
-                    Syarat & Ketentuan{" "}
-                  </a></Link>
+                  <Link to="/syaratketentuan">
+                    <a className="text-blue-500 hover:text-blue-700">
+                      {" "}
+                      Syarat & Ketentuan{" "}
+                    </a>
+                  </Link>
                   <p> dan</p>
                 </div>
                 <div className=" items-center justify-center flex gap-1">
-                  <Link to='/kebijakanprivasi'><a className="text-blue-500 hover:text-blue-700">
-                    {" "}
-                    Kebijakan Privasi
-                  </a></Link>
+                  <Link to="/kebijakanprivasi">
+                    <a className="text-blue-500 hover:text-blue-700">
+                      {" "}
+                      Kebijakan Privasi
+                    </a>
+                  </Link>
                   <p> huniKita</p>
                 </div>
               </div>

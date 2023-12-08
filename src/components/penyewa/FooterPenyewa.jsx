@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const FooterPenyewa = () => {
   return (
@@ -77,7 +77,7 @@ const FooterPenyewa = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default FooterPenyewa
+export default FooterPenyewa;

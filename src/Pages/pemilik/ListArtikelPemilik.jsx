@@ -1,16 +1,16 @@
-import React from 'react'
-import NavPemilik from '../../components/pemilik/NavPemilik'
-import FooterPemilik from '../../components/pemilik/FooterPemilik'
-import SearchArtikel from '../../components/artikel/SearchArtikel'
-import ListCard from '../../components/artikel/ListCard'
-import Pagination from '../../components/artikel/Pagination'
-import { Link } from 'react-router-dom'
+import React from "react";
+import NavPemilik from "../../components/pemilik/NavPemilik";
+import FooterPemilik from "../../components/pemilik/FooterPemilik";
+import SearchArtikel from "../../components/artikel/SearchArtikel";
+import ListCard from "../../components/artikel/ListCard";
+import Pagination from "../../components/artikel/Pagination";
+import { Link } from "react-router-dom";
 
 const ListArtikelPemilik = () => {
   return (
     <>
-    <NavPemilik />
-    <div className="mt-[43px] ml-[96px] flex">
+      <NavPemilik />
+      <div className="mt-[43px] ml-[96px] flex">
         <ul className='flex gap-9 text-[#4E97D1] text-["Poppins"] font-bold underline text-[25px]'>
           <li className="cursor-pointer">Gaya Hidup</li>
           <li className="cursor-pointer">Kecantikan</li>
@@ -32,10 +32,10 @@ const ListArtikelPemilik = () => {
         <Pagination />
       </div>
       <div className="mt-[50px]">
-      <FooterPemilik />
+        <FooterPemilik />
       </div>
     </>
-  )
-}
+  );
+};
 
-export default ListArtikelPemilik
+export default ListArtikelPemilik;

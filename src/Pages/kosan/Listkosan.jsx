@@ -1,9 +1,9 @@
 import React from "react";
-import Navbar from "../../components/Navbar"
-import Search from "../../components/list-kosan/Search"
-import Cardkosan from "../../components/list-kosan/Cardkosan"
-import Pagination from "../../components/artikel/Pagination"
-import Footer from "../../components/Footer"
+import Navbar from "../../components/Navbar";
+import Search from "../../components/list-kosan/Search";
+import Cardkosan from "../../components/list-kosan/Cardkosan";
+import Pagination from "../../components/artikel/Pagination";
+import Footer from "../../components/Footer";
 
 const Listkosan = () => {
   return (

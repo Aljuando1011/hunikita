@@ -89,7 +89,7 @@ const FormDaftar = () => {
         </form>
       </div>
       <div className="mt-[50px]">
-      <FooterPemilik />
+        <FooterPemilik />
       </div>
     </>
   );

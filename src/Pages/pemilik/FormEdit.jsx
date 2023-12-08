@@ -1,12 +1,12 @@
-import React from 'react'
-import NavPemilik from '../../components/pemilik/NavPemilik'
-import FooterPemilik from '../../components/pemilik/FooterPemilik'
+import React from "react";
+import NavPemilik from "../../components/pemilik/NavPemilik";
+import FooterPemilik from "../../components/pemilik/FooterPemilik";
 
 const FormEdit = () => {
   return (
     <>
-    <NavPemilik />
-    <div className="w-[1148px] mx-auto">
+      <NavPemilik />
+      <div className="w-[1148px] mx-auto">
         <form action="">
           <h1 className="text-[36px] font-bold mt-[65px]">Edit Iklan</h1>
           <hr className="mt-[10px] h-[2px] bg-gray-300" />
@@ -89,10 +89,10 @@ const FormEdit = () => {
         </form>
       </div>
       <div className="mt-[50px]">
-      <FooterPemilik />
+        <FooterPemilik />
       </div>
     </>
-  )
-}
+  );
+};
 
-export default FormEdit
+export default FormEdit;

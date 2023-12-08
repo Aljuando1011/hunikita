@@ -1,16 +1,16 @@
-import React from 'react'
-import NavPemilik from '../../components/pemilik/NavPemilik'
-import FooterPemilik from '../../components/pemilik/FooterPemilik'
-import Carousel from '../../components/beranda/Carousel'
-import SearchBar from '../../components/beranda/SearchBar'
-import CardBeranda from '../../components/beranda/CardBeranda'
-import Selengkapnya from '../../components/beranda/Selengkapnya'
+import React from "react";
+import NavPemilik from "../../components/pemilik/NavPemilik";
+import FooterPemilik from "../../components/pemilik/FooterPemilik";
+import Carousel from "../../components/beranda/Carousel";
+import SearchBar from "../../components/beranda/SearchBar";
+import CardBeranda from "../../components/beranda/CardBeranda";
+import Selengkapnya from "../../components/beranda/Selengkapnya";
 
 const BerandaPemilik = () => {
   return (
     <>
-    <NavPemilik />
-    <div>
+      <NavPemilik />
+      <div>
         <Carousel />
         <div className=" -mt-[30px]">
           <SearchBar />
@@ -58,11 +58,11 @@ const BerandaPemilik = () => {
           <Selengkapnya />
         </div>
       </div>
-      <div className='mt-[98px]'>
+      <div className="mt-[98px]">
         <FooterPemilik />
       </div>
     </>
-  )
-}
+  );
+};
 
-export default BerandaPemilik
+export default BerandaPemilik;

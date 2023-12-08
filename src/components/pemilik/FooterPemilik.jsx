@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const FooterPemilik = () => {
   return (
@@ -74,7 +74,7 @@ const FooterPemilik = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default FooterPemilik
+export default FooterPemilik;

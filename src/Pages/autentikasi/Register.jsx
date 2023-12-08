@@ -89,17 +89,21 @@ const Register = () => {
               <div className="mt-6">
                 <div className="flex items-center justify-center gap-1">
                   Dengan login kamu menyetujui
-                  <Link to='/syaratketentuan'><a className="text-blue-500 hover:text-blue-700">
-                    {" "}
-                    Syarat & Ketentuan{" "}
-                  </a></Link>
+                  <Link to="/syaratketentuan">
+                    <a className="text-blue-500 hover:text-blue-700">
+                      {" "}
+                      Syarat & Ketentuan{" "}
+                    </a>
+                  </Link>
                   <p> dan</p>
                 </div>
                 <div className="flex items-center justify-center gap-1">
-                  <Link to='/kebijakanprivasi'><a className="text-blue-500 hover:text-blue-700">
-                    {" "}
-                    Kebijakan Privasi
-                  </a></Link>
+                  <Link to="/kebijakanprivasi">
+                    <a className="text-blue-500 hover:text-blue-700">
+                      {" "}
+                      Kebijakan Privasi
+                    </a>
+                  </Link>
                   <p> huniKita</p>
                 </div>
               </div>

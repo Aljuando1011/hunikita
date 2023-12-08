@@ -33,9 +33,11 @@ const NavPenyewa = () => {
           <DropdownHover />
         </li>
       </ul>
-      <Link to='/'><button className="hover:cursor-pointer hover:underline relative mr-5 p-1 pt-0 rounded-[50px] text-[#4E97D1] bg-white justify-center items-center text-[20px] font-normal w-[100px]">
-        Logout
-      </button></Link>
+      <Link to="/">
+        <button className="hover:cursor-pointer hover:underline relative mr-5 p-1 pt-0 rounded-[50px] text-[#4E97D1] bg-white justify-center items-center text-[20px] font-normal w-[100px]">
+          Logout
+        </button>
+      </Link>
     </nav>
   );
 };

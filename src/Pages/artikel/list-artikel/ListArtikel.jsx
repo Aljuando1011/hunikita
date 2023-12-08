@@ -18,7 +18,7 @@ const ListArtikel = () => {
             <li className="cursor-pointer">Kuliner</li>
           </ul>
           <div className="ml-[300px]">
-          <SearchArtikel />
+            <SearchArtikel />
           </div>
         </div>
         <div className="flex flex-col gap-6 mt-[40px]">
@@ -27,10 +27,10 @@ const ListArtikel = () => {
           <ListCard />
         </div>
         <div className="mt-[99px]">
-            <Pagination />
+          <Pagination />
         </div>
         <div className="mt-[77px]">
-            <Footer />
+          <Footer />
         </div>
       </div>
     </>

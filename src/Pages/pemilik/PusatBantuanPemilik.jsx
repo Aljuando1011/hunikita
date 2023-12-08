@@ -1,6 +1,6 @@
-import React from 'react'
-import NavPemilik from '../../components/pemilik/NavPemilik'
-import FooterPemilik from '../../components/pemilik/FooterPemilik'
+import React from "react";
+import NavPemilik from "../../components/pemilik/NavPemilik";
+import FooterPemilik from "../../components/pemilik/FooterPemilik";
 
 const PusatBantuanPemilik = () => {
   return (
@@ -195,7 +195,7 @@ const PusatBantuanPemilik = () => {
         <FooterPemilik />
       </div>
     </>
-  )
-}
+  );
+};
 
-export default PusatBantuanPemilik
+export default PusatBantuanPemilik;
