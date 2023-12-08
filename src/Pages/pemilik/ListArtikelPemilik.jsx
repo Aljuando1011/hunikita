@@ -31,7 +31,9 @@ const ListArtikelPemilik = () => {
       <div className="mt-[99px]">
         <Pagination />
       </div>
+      <div className="mt-[50px]">
       <FooterPemilik />
+      </div>
     </>
   )
 }

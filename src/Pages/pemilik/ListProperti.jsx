@@ -14,7 +14,9 @@ const ListProperti = () => {
     </div>
     <CardProperti />
     <Link to='/formdaftar'><div className='w-[274px] h-[62px] justify-center items-center text-white bg-[#4E97D1] flex rounded-[10px] text-[22px] mt-[62px] mx-auto cursor-pointer font-semibold'>+ Tahmbahkan Iklan</div></Link>
-    <FooterPemilik />
+    <div className="mt-[50px]">
+      <FooterPemilik />
+      </div>
     </>
   )
 }

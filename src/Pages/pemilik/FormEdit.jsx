@@ -88,7 +88,9 @@ const FormEdit = () => {
           </button>
         </form>
       </div>
+      <div className="mt-[50px]">
       <FooterPemilik />
+      </div>
     </>
   )
 }
