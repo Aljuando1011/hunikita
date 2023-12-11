@@ -1,6 +1,6 @@
 import React from "react";
 
-const Cardkosan = () => {
+const Cardkosan3 = () => {
   return (
     <>
       <div className="relative w-[376px] h-[313px] hover:shadow-2xl">
@@ -17,7 +17,7 @@ const Cardkosan = () => {
                 Mulai
                 <br />
               </span>
-              <span className="text-[10px]">Rp. 600.000 / Bulan</span>
+              <span className="text-[10px]">Rp. 650.000 / Bulan</span>
             </p>
           </div>
           <div className="flex flex-col w-[62px] h-[21px] items-center justify-center gap-[10px] p-[10px] absolute top-[162px] left-[120px] bg-[#108006] rounded-[4px]">
@@ -31,7 +31,7 @@ const Cardkosan = () => {
             <div className="absolute w-[372px] h-[65px] top-0 left-0">
               <div className="relative h-[65px]">
                 <div className="absolute top-0 left-0 [font-family:'Poppins',Helvetica] font-semibold text-black text-[24px] text-justify tracking-[0] leading-[normal]">
-                  Kost Jangkar Telang
+                Kost 030 Bangkalan
                 </div>
                 <img
                   className="w-[27px] h-[29px] top-[34px] left-[2px] absolute object-cover"
@@ -40,8 +40,8 @@ const Cardkosan = () => {
                 />
                 <div className="absolute w-[339px] h-[30px] top-[35px] left-[33px]">
                   <p className="absolute w-[337px] top-0 left-0 [font-family:'Poppins',Helvetica] font-normal text-[#000000cc] text-[10px] text-justify tracking-[0] leading-[normal]">
-                    Jl. Telang Indah III 3, Perumahan Telang Indah, Telang, Kec.
-                    Kamal, Kabupaten Bangkalan, Jawa Timur 69162
+                  PERUM IMC C-20, Wr 08, Mlajah, Kec. Bangkalan, 
+                  Kabupaten Bangkalan, Jawa Timur 69116, Indonesia
                   </p>
                 </div>
               </div>
@@ -58,4 +58,4 @@ const Cardkosan = () => {
   );
 };
 
-export default Cardkosan;
+export default Cardkosan3;
