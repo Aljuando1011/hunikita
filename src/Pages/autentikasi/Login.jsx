@@ -11,10 +11,6 @@ const Login = () => {
               Login
             </h1>
 
-            <p className="leading-tight mt-2 font-Poppins">
-              Masukkan email dan sandi
-            </p>
-
             <form className="mt-9" action="#" method="POST">
               <div>
                 <label className="font-semibold block text-gray-700">
@@ -43,12 +39,6 @@ const Login = () => {
                 />
               </div>
 
-              <Link to="/lupakatasandi">
-                <div class="text-right mt-2 font-Poppins font-semibold text-gray-700 hover:text-blue-700 focus:text-blue-700 focus:outline-none">
-                  Lupa Kata Sandi?
-                </div>
-              </Link>
-
               <Link to="/berandapemilik">
                 <button
                   className="w-full block bg-blue-500 hover:bg-blue-400 px-1.5 py-1.5 rounded-lg font-semibold text-white font-Poppins focus:bg-blue-400 focus:outline-none mt-3"
@@ -58,18 +48,6 @@ const Login = () => {
                 </button>
               </Link>
 
-              <hr className="my-6 border-gray-300 w-full" />
-
-              <button className="w-full block bg-white border-gray-300 hover:bg-gray-100 focus:bg-gray-100 text-gray-900 font-semibold rounded-lg border mt-4">
-                <div className="flex items-center justify-center">
-                  <img
-                    src="/logo-google.png"
-                    className="w-10 h-10 flex-items-center justify-center"
-                    viewBox="0 0 48 48"
-                  />
-                  <p className="ml-2">Masuk dengan Google</p>
-                </div>
-              </button>
               <div className="flex gap-2 justify-center mt-[10px]">
                 <p>Belum punya akun?</p>
                 <Link to="/register">
